@@ -11,8 +11,8 @@
 
 ### 2. 获取代码
 ```bash
-git clone https://github.com/your-repo/ai-collab-framework.git
-cd ai-collab-framework
+git clone https://github.com/Hypocrite65/Cyber-Workforce.git
+cd Cyber-Workforce
 ```
 
 ### 3. 配置密钥 (`secrets/config.json`)
