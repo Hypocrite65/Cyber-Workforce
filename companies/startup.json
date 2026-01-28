@@ -1,0 +1,28 @@
+{
+    "company_name": "AI_Startup_Inc",
+    "description": "A focused team for rapid prototyping",
+    "roles": [
+        {
+            "name": "ProductManager",
+            "prompt_file": "ai_core/prompts/pm.md",
+            "model_alias": "qwen_max",
+            "system_message_append": "请使用中文沟通。"
+        },
+        {
+            "name": "ChiefArchitect",
+            "prompt_file": "ai_core/prompts/architect.md",
+            "model_alias": "qwen_max",
+            "system_message_append": "设计时请考虑扩展性。"
+        },
+        {
+            "name": "FullStackDev",
+            "prompt_file": "ai_core/prompts/web_expert.md",
+            "model_alias": "qwen_turbo",
+            "system_message_append": "请严格按照架构师的设计编写代码。"
+        }
+    ],
+    "process": {
+        "max_round": 20,
+        "speaker_selection_method": "auto"
+    }
+}

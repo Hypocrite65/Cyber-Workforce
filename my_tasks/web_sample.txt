@@ -1,0 +1,8 @@
+# Web 示例
+## 目标
+开发一个简单的用户管理后台页面。
+
+## 需求
+1. **API**: `GET /users` 返回 JSON 列表。
+2. **UI**: 表格展示，包含 ID, Name, Status。
+3. **技术**: React + FastAPI。

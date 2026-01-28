@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.cache/
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Environment
+.env
+site-packages/
+
+# Project Outputs (Runtime generated)
+workspace/
+output/
+projects/
+
+# Docker
+.dockerignore
+
+# Secrets (Keep example, ignore real keys)
+secrets/*
+!secrets/config.json.example
+
+# Logs
+*.log
